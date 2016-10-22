@@ -3646,6 +3646,13 @@ public final class Settings {
         public static final String KEY_APP_SWITCH_ACTION = "key_app_switch_action";
 
         /**
+         * Action to perform when the app switch key is long-pressed. (Default is 0)
+         * (See KEY_HOME_LONG_PRESS_ACTION for valid values)
+         * @hide
+         */
+        public static final String KEY_APP_SWITCH_LONG_PRESS_ACTION = "key_app_switch_long_press_action";
+
+        /**
          *  Enable statusbar double tap gesture on to put device to sleep
          * @hide
          */
